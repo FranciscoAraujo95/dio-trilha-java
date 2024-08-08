@@ -7,21 +7,33 @@ public class Operadores {
 //        String nomeCompleto = "Linguagem" + " Java";
 //        System.out.println(nomeCompleto);
 
-        String concatenacao = "?";
+//        String concatenacao = "?";
+//
+//        concatenacao = 1 + 1 + 1 + "1";
+//        System.out.println(concatenacao);
+//
+//        concatenacao = 1 + "1" + 1 + 1;
+//        System.out.println(concatenacao);
+//
+//        concatenacao = 1 + "1" + 1 + "1";
+//        System.out.println(concatenacao);
+//
+//        concatenacao = "1" + 1 + 1 + 1;
+//        System.out.println(concatenacao);
+//
+//        concatenacao = "1" + (1 + 1 + 1);
+//        System.out.println(concatenacao);
 
-        concatenacao = 1 + 1 + 1 + "1";
-        System.out.println(concatenacao);
+        // Operadores Unários
 
-        concatenacao = 1 + "1" + 1 + 1;
-        System.out.println(concatenacao);
+        int numero = 5;
 
-        concatenacao = 1 + "1" + 1 + "1";
-        System.out.println(concatenacao);
+        numero = -numero;
+        System.out.println(numero);
 
-        concatenacao = "1" + 1 + 1 + 1;
-        System.out.println(concatenacao);
+        numero = numero * -1;
+        System.out.println(numero);
 
-        concatenacao = "1" + (1 + 1 + 1);
-        System.out.println(concatenacao);
+
     }
 }
