@@ -26,14 +26,25 @@ public class Operadores {
 
         // Operadores Unários
 
-        int numero = 5;
+//        int numero = 5;
+//
+//        numero = -numero;
+//        System.out.println(numero);
+//
+//        numero = numero * -1;
+//        System.out.println(numero);
 
-        numero = -numero;
-        System.out.println(numero);
+        //Operador de incremento
+//        int numero = 5;
+//
+//        System.out.println(numero--);
+//        System.out.println(numero);
 
-        numero = numero * -1;
-        System.out.println(numero);
-
+//        boolean variavel = true;
+//
+//        variavel = !variavel;
+//
+//        System.out.println(variavel);
 
     }
 }
