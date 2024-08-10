@@ -1,2 +1,30 @@
-package application;public class DoWhile {
+package application;
+
+import java.util.Locale;
+import java.util.Random;
+import java.util.Scanner;
+
+public class DoWhile {
+
+    public static void main(String[] args) {
+
+        System.out.println("Discando...");
+
+        do {
+            //Executando repetidas vezes até alguém atender
+            System.out.println("Telefone tocando");
+
+        } while (tocando());
+
+        System.out.println("Alô!!!");
+
+    }
+
+    public static boolean tocando() {
+        boolean atendeu = new Random().nextInt(3) == 1;
+        System.out.println("Atendeu? " + atendeu);
+
+        //Negando o ato de continuar tocando
+        return !atendeu;
+    }
 }
