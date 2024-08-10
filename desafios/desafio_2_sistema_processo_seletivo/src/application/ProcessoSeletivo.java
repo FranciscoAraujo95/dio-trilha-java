@@ -7,7 +7,26 @@ public class ProcessoSeletivo {
     public static void main(String[] args) {
 
         System.out.println("Processo Seletivo");
-        selecionarCandidatos();
+//        selecionarCandidatos();
+        imprimirSelecionados();
+
+    }
+
+    public static void imprimirSelecionados() {
+        String[] candidatos = {"Felipe", "Márcia", "Julia", "Paulo", "Augusto"};
+
+        System.out.println("Imprimindo a lista de candidatos informando o índice do elemento");
+        for (int i = 0; i < candidatos.length; i++) {
+            System.out.println("O candidato de número " + (i + 1) + " é " + candidatos[i]);
+        }
+
+        System.out.println();
+
+        System.out.println("Forma abreviada de interação For Each");
+        for (String candidato : candidatos) {
+            System.out.println("O candidato selecionado foi: " + candidato);
+        }
+
 
     }
 
